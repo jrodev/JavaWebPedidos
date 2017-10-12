@@ -49,7 +49,7 @@ local.properties
 .worksheet
 
 # Custom ##################################################################################
-!D:\Projects\Java\WebPedidos\WebContent\WEB-INF\lib
+!/WebContent/WEB-INF/lib
 
 # FOR JAVA ################################################################################
 
