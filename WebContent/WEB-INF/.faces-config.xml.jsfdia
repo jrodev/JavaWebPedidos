@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:*" PATH="*" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:*:0" NAME="item" PATH="*" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="index::index.xhtml" NAME="output"
+    PATH="index.xhtml" TARGET="rules:index.xhtml" TITLE="index" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="panel::inicio#panel.xhtml" NAME="output1"
+    PATH="inicio/panel.xhtml" TARGET="rules:inicio#panel.xhtml"
+    TITLE="panel" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="perfil_listado::maestro#perfil_listado.xhtml" NAME="output2"
+    PATH="maestro/perfil_listado.xhtml"
+    TARGET="rules:maestro#perfil_listado.xhtml" TITLE="perfil_listado" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="perfil_registro::maestro#perfil_registro.xhtml" NAME="output3"
+    PATH="maestro/perfil_registro.xhtml"
+    TARGET="rules:maestro#perfil_registro.xhtml" TITLE="perfil_registro" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="usuario_registro::maestro#usuario_registro.xhtml" NAME="output4"
+    PATH="maestro/usuario_registro.xhtml"
+    TARGET="rules:maestro#usuario_registro.xhtml"
+    TITLE="usuario_registro" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="pedido_registro::procesos#pedido_registro.xhtml" NAME="output5"
+    PATH="procesos/pedido_registro.xhtml"
+    TARGET="rules:procesos#pedido_registro.xhtml"
+    TITLE="pedido_registro" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:index.xhtml" PATH="index.xhtml"
+  SHAPE="288,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:procesos#pedido_registro.xhtml"
+  PATH="procesos/pedido_registro.xhtml" SHAPE="288,465,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:inicio#panel.xhtml" PATH="inicio/panel.xhtml"
+  SHAPE="288,184,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:maestro#usuario_registro.xhtml"
+  PATH="maestro/usuario_registro.xhtml" SHAPE="288,353,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:maestro#perfil_registro.xhtml"
+  PATH="maestro/perfil_registro.xhtml" SHAPE="288,689,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:maestro#perfil_listado.xhtml"
+  PATH="maestro/perfil_listado.xhtml" SHAPE="296,240,50,25" model-entity="JSFProcessGroup"/>
+</PROCESS>
