@@ -35,6 +35,101 @@
     </plugins>
   </build>
   <dependencies>
+  
+	<dependency>
+	    <groupId>com.jslsolucoes</groupId>
+	    <artifactId>ojdbc6</artifactId>
+	    <version>11.2.0.1.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>javax.persistence</artifactId>
+	    <version>2.1.0</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-orm</artifactId>
+	    <version>3.2.0.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>3.2.5.RELEASE</version>
+	    <scope>test</scope>
+	</dependency>
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>org.eclipse.persistence.jpa.modelgen</artifactId>
+	    <version>2.4.2</version>
+	</dependency>
+
+
+<dependency>
+    <groupId>commons-digester</groupId>
+    <artifactId>commons-digester</artifactId>
+    <version>2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.2.2</version>
+</dependency>																																																																																																																																																																																																																																																																									
+
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>javax.faces</artifactId>
+    <version>2.2.7</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.primefaces</groupId>
+    <artifactId>primefaces</artifactId>
+    <version>5.3</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>6.0.37</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.7.0</version>
+</dependency>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.5</version>
+</dependency>
+
+<dependency>
+    <groupId>org.eclipse.persistence</groupId>
+    <artifactId>eclipselink</artifactId>
+    <version>2.5.1</version>
+</dependency>
+
+
+
+	
+	
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-core</artifactId>
@@ -59,6 +154,26 @@
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-tx</artifactId>
 	    <version>3.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+    <groupId>org.springframework</groupId>
+	    <artifactId>spring-web</artifactId>
+	    <version>3.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-jpa</artifactId>
+	    <version>1.2.1.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>3.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	    <version>3.2.0.RELEASE</version>
 	</dependency>
   </dependencies>
 </project>
